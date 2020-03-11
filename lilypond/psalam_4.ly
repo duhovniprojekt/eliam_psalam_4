@@ -5,6 +5,8 @@
 %% -> /museScore/programRevision text="148e43f"
 %% <- /museScore/programRevision
 %% -> /museScore/Score
+%% -> /museScore/Score/layoutMode text="line"
+%% <- /museScore/Score/layoutMode
 %% -> /museScore/Score/LayerTag attr="[('id', '0'), ('tag', 'default')]"
 %% <- /museScore/Score/LayerTag
 %% -> /museScore/Score/currentLayer text="0"
@@ -104,8 +106,6 @@
 %% <- /museScore/Score/Style/pageHeight
 %% -> /museScore/Score/Style/pagePrintableWidth text="7.4826"
 %% <- /museScore/Score/Style/pagePrintableWidth
-%% -> /museScore/Score/Style/hideEmptyStaves text="1"
-%% <- /museScore/Score/Style/hideEmptyStaves
 %% -> /museScore/Score/Style/Spatium text="1.76389"
 %% <- /museScore/Score/Style/Spatium
 %% <- /museScore/Score/Style
@@ -594,6 +594,208 @@
 %% -> /museScore/Score/Part/Instrument/Channel/midiPort text="0"
 %% <- /museScore/Score/Part/Instrument/Channel/midiPort
 %% -> /museScore/Score/Part/Instrument/Channel/midiChannel text="3"
+%% <- /museScore/Score/Part/Instrument/Channel/midiChannel
+%% <- /museScore/Score/Part/Instrument/Channel
+%% <- /museScore/Score/Part/Instrument
+%% <- /museScore/Score/Part
+%% -> /museScore/Score/Part
+%% -> /museScore/Score/Part/Staff attr="[('id', '6')]"
+%% defaultClef: 
+%% -> /museScore/Score/Part/Staff/StaffType attr="[('group', 'pitched')]"
+%% -> /museScore/Score/Part/Staff/StaffType/name text="stdNormal"
+%% <- /museScore/Score/Part/Staff/StaffType/name
+%% <- /museScore/Score/Part/Staff/StaffType
+%% <- /museScore/Score/Part/Staff
+%% -> /museScore/Score/Part/trackName text="Voice"
+%% <- /museScore/Score/Part/trackName
+%% -> /museScore/Score/Part/Instrument
+%% -> /museScore/Score/Part/Instrument/longName text="Voice"
+%% <- /museScore/Score/Part/Instrument/longName
+%% -> /museScore/Score/Part/Instrument/shortName text="Vo."
+%% <- /museScore/Score/Part/Instrument/shortName
+%% -> /museScore/Score/Part/Instrument/trackName text="Voice"
+%% <- /museScore/Score/Part/Instrument/trackName
+%% -> /museScore/Score/Part/Instrument/minPitchP text="36"
+%% <- /museScore/Score/Part/Instrument/minPitchP
+%% -> /museScore/Score/Part/Instrument/maxPitchP text="94"
+%% <- /museScore/Score/Part/Instrument/maxPitchP
+%% -> /museScore/Score/Part/Instrument/minPitchA text="40"
+%% <- /museScore/Score/Part/Instrument/minPitchA
+%% -> /museScore/Score/Part/Instrument/maxPitchA text="79"
+%% <- /museScore/Score/Part/Instrument/maxPitchA
+%% -> /museScore/Score/Part/Instrument/instrumentId text="voice.vocals"
+%% <- /museScore/Score/Part/Instrument/instrumentId
+%% -> /museScore/Score/Part/Instrument/Articulation
+%% -> /museScore/Score/Part/Instrument/Articulation/velocity text="100"
+%% <- /museScore/Score/Part/Instrument/Articulation/velocity
+%% -> /museScore/Score/Part/Instrument/Articulation/gateTime text="100"
+%% <- /museScore/Score/Part/Instrument/Articulation/gateTime
+%% <- /museScore/Score/Part/Instrument/Articulation
+%% -> /museScore/Score/Part/Instrument/Articulation attr="[('name', 'staccatissimo')]"
+%% -> /museScore/Score/Part/Instrument/Articulation/velocity text="100"
+%% <- /museScore/Score/Part/Instrument/Articulation/velocity
+%% -> /museScore/Score/Part/Instrument/Articulation/gateTime text="33"
+%% <- /museScore/Score/Part/Instrument/Articulation/gateTime
+%% <- /museScore/Score/Part/Instrument/Articulation
+%% -> /museScore/Score/Part/Instrument/Articulation attr="[('name', 'staccato')]"
+%% -> /museScore/Score/Part/Instrument/Articulation/velocity text="100"
+%% <- /museScore/Score/Part/Instrument/Articulation/velocity
+%% -> /museScore/Score/Part/Instrument/Articulation/gateTime text="50"
+%% <- /museScore/Score/Part/Instrument/Articulation/gateTime
+%% <- /museScore/Score/Part/Instrument/Articulation
+%% -> /museScore/Score/Part/Instrument/Articulation attr="[('name', 'portato')]"
+%% -> /museScore/Score/Part/Instrument/Articulation/velocity text="100"
+%% <- /museScore/Score/Part/Instrument/Articulation/velocity
+%% -> /museScore/Score/Part/Instrument/Articulation/gateTime text="67"
+%% <- /museScore/Score/Part/Instrument/Articulation/gateTime
+%% <- /museScore/Score/Part/Instrument/Articulation
+%% -> /museScore/Score/Part/Instrument/Articulation attr="[('name', 'tenuto')]"
+%% -> /museScore/Score/Part/Instrument/Articulation/velocity text="100"
+%% <- /museScore/Score/Part/Instrument/Articulation/velocity
+%% -> /museScore/Score/Part/Instrument/Articulation/gateTime text="100"
+%% <- /museScore/Score/Part/Instrument/Articulation/gateTime
+%% <- /museScore/Score/Part/Instrument/Articulation
+%% -> /museScore/Score/Part/Instrument/Articulation attr="[('name', 'marcato')]"
+%% -> /museScore/Score/Part/Instrument/Articulation/velocity text="120"
+%% <- /museScore/Score/Part/Instrument/Articulation/velocity
+%% -> /museScore/Score/Part/Instrument/Articulation/gateTime text="67"
+%% <- /museScore/Score/Part/Instrument/Articulation/gateTime
+%% <- /museScore/Score/Part/Instrument/Articulation
+%% -> /museScore/Score/Part/Instrument/Articulation attr="[('name', 'sforzato')]"
+%% -> /museScore/Score/Part/Instrument/Articulation/velocity text="150"
+%% <- /museScore/Score/Part/Instrument/Articulation/velocity
+%% -> /museScore/Score/Part/Instrument/Articulation/gateTime text="100"
+%% <- /museScore/Score/Part/Instrument/Articulation/gateTime
+%% <- /museScore/Score/Part/Instrument/Articulation
+%% -> /museScore/Score/Part/Instrument/Articulation attr="[('name', 'sforzatoStaccato')]"
+%% -> /museScore/Score/Part/Instrument/Articulation/velocity text="150"
+%% <- /museScore/Score/Part/Instrument/Articulation/velocity
+%% -> /museScore/Score/Part/Instrument/Articulation/gateTime text="50"
+%% <- /museScore/Score/Part/Instrument/Articulation/gateTime
+%% <- /museScore/Score/Part/Instrument/Articulation
+%% -> /museScore/Score/Part/Instrument/Articulation attr="[('name', 'marcatoStaccato')]"
+%% -> /museScore/Score/Part/Instrument/Articulation/velocity text="120"
+%% <- /museScore/Score/Part/Instrument/Articulation/velocity
+%% -> /museScore/Score/Part/Instrument/Articulation/gateTime text="50"
+%% <- /museScore/Score/Part/Instrument/Articulation/gateTime
+%% <- /museScore/Score/Part/Instrument/Articulation
+%% -> /museScore/Score/Part/Instrument/Articulation attr="[('name', 'marcatoTenuto')]"
+%% -> /museScore/Score/Part/Instrument/Articulation/velocity text="120"
+%% <- /museScore/Score/Part/Instrument/Articulation/velocity
+%% -> /museScore/Score/Part/Instrument/Articulation/gateTime text="100"
+%% <- /museScore/Score/Part/Instrument/Articulation/gateTime
+%% <- /museScore/Score/Part/Instrument/Articulation
+%% -> /museScore/Score/Part/Instrument/Channel
+%% -> /museScore/Score/Part/Instrument/Channel/controller attr="[('ctrl', '32'), ('value', '17')]"
+%% <- /museScore/Score/Part/Instrument/Channel/controller
+%% -> /museScore/Score/Part/Instrument/Channel/program attr="[('value', '52')]"
+%% <- /museScore/Score/Part/Instrument/Channel/program
+%% -> /museScore/Score/Part/Instrument/Channel/synti text="Fluid"
+%% <- /museScore/Score/Part/Instrument/Channel/synti
+%% -> /museScore/Score/Part/Instrument/Channel/midiPort text="0"
+%% <- /museScore/Score/Part/Instrument/Channel/midiPort
+%% -> /museScore/Score/Part/Instrument/Channel/midiChannel text="5"
+%% <- /museScore/Score/Part/Instrument/Channel/midiChannel
+%% <- /museScore/Score/Part/Instrument/Channel
+%% <- /museScore/Score/Part/Instrument
+%% <- /museScore/Score/Part
+%% -> /museScore/Score/Part
+%% -> /museScore/Score/Part/Staff attr="[('id', '7')]"
+%% defaultClef: 
+%% -> /museScore/Score/Part/Staff/StaffType attr="[('group', 'pitched')]"
+%% -> /museScore/Score/Part/Staff/StaffType/name text="stdNormal"
+%% <- /museScore/Score/Part/Staff/StaffType/name
+%% <- /museScore/Score/Part/Staff/StaffType
+%% <- /museScore/Score/Part/Staff
+%% -> /museScore/Score/Part/trackName text="Voice"
+%% <- /museScore/Score/Part/trackName
+%% -> /museScore/Score/Part/Instrument
+%% -> /museScore/Score/Part/Instrument/longName text="Voice"
+%% <- /museScore/Score/Part/Instrument/longName
+%% -> /museScore/Score/Part/Instrument/shortName text="Vo."
+%% <- /museScore/Score/Part/Instrument/shortName
+%% -> /museScore/Score/Part/Instrument/trackName text="Voice"
+%% <- /museScore/Score/Part/Instrument/trackName
+%% -> /museScore/Score/Part/Instrument/minPitchP text="36"
+%% <- /museScore/Score/Part/Instrument/minPitchP
+%% -> /museScore/Score/Part/Instrument/maxPitchP text="94"
+%% <- /museScore/Score/Part/Instrument/maxPitchP
+%% -> /museScore/Score/Part/Instrument/minPitchA text="40"
+%% <- /museScore/Score/Part/Instrument/minPitchA
+%% -> /museScore/Score/Part/Instrument/maxPitchA text="79"
+%% <- /museScore/Score/Part/Instrument/maxPitchA
+%% -> /museScore/Score/Part/Instrument/instrumentId text="voice.vocals"
+%% <- /museScore/Score/Part/Instrument/instrumentId
+%% -> /museScore/Score/Part/Instrument/Articulation
+%% -> /museScore/Score/Part/Instrument/Articulation/velocity text="100"
+%% <- /museScore/Score/Part/Instrument/Articulation/velocity
+%% -> /museScore/Score/Part/Instrument/Articulation/gateTime text="100"
+%% <- /museScore/Score/Part/Instrument/Articulation/gateTime
+%% <- /museScore/Score/Part/Instrument/Articulation
+%% -> /museScore/Score/Part/Instrument/Articulation attr="[('name', 'staccatissimo')]"
+%% -> /museScore/Score/Part/Instrument/Articulation/velocity text="100"
+%% <- /museScore/Score/Part/Instrument/Articulation/velocity
+%% -> /museScore/Score/Part/Instrument/Articulation/gateTime text="33"
+%% <- /museScore/Score/Part/Instrument/Articulation/gateTime
+%% <- /museScore/Score/Part/Instrument/Articulation
+%% -> /museScore/Score/Part/Instrument/Articulation attr="[('name', 'staccato')]"
+%% -> /museScore/Score/Part/Instrument/Articulation/velocity text="100"
+%% <- /museScore/Score/Part/Instrument/Articulation/velocity
+%% -> /museScore/Score/Part/Instrument/Articulation/gateTime text="50"
+%% <- /museScore/Score/Part/Instrument/Articulation/gateTime
+%% <- /museScore/Score/Part/Instrument/Articulation
+%% -> /museScore/Score/Part/Instrument/Articulation attr="[('name', 'portato')]"
+%% -> /museScore/Score/Part/Instrument/Articulation/velocity text="100"
+%% <- /museScore/Score/Part/Instrument/Articulation/velocity
+%% -> /museScore/Score/Part/Instrument/Articulation/gateTime text="67"
+%% <- /museScore/Score/Part/Instrument/Articulation/gateTime
+%% <- /museScore/Score/Part/Instrument/Articulation
+%% -> /museScore/Score/Part/Instrument/Articulation attr="[('name', 'tenuto')]"
+%% -> /museScore/Score/Part/Instrument/Articulation/velocity text="100"
+%% <- /museScore/Score/Part/Instrument/Articulation/velocity
+%% -> /museScore/Score/Part/Instrument/Articulation/gateTime text="100"
+%% <- /museScore/Score/Part/Instrument/Articulation/gateTime
+%% <- /museScore/Score/Part/Instrument/Articulation
+%% -> /museScore/Score/Part/Instrument/Articulation attr="[('name', 'marcato')]"
+%% -> /museScore/Score/Part/Instrument/Articulation/velocity text="120"
+%% <- /museScore/Score/Part/Instrument/Articulation/velocity
+%% -> /museScore/Score/Part/Instrument/Articulation/gateTime text="67"
+%% <- /museScore/Score/Part/Instrument/Articulation/gateTime
+%% <- /museScore/Score/Part/Instrument/Articulation
+%% -> /museScore/Score/Part/Instrument/Articulation attr="[('name', 'sforzato')]"
+%% -> /museScore/Score/Part/Instrument/Articulation/velocity text="150"
+%% <- /museScore/Score/Part/Instrument/Articulation/velocity
+%% -> /museScore/Score/Part/Instrument/Articulation/gateTime text="100"
+%% <- /museScore/Score/Part/Instrument/Articulation/gateTime
+%% <- /museScore/Score/Part/Instrument/Articulation
+%% -> /museScore/Score/Part/Instrument/Articulation attr="[('name', 'sforzatoStaccato')]"
+%% -> /museScore/Score/Part/Instrument/Articulation/velocity text="150"
+%% <- /museScore/Score/Part/Instrument/Articulation/velocity
+%% -> /museScore/Score/Part/Instrument/Articulation/gateTime text="50"
+%% <- /museScore/Score/Part/Instrument/Articulation/gateTime
+%% <- /museScore/Score/Part/Instrument/Articulation
+%% -> /museScore/Score/Part/Instrument/Articulation attr="[('name', 'marcatoStaccato')]"
+%% -> /museScore/Score/Part/Instrument/Articulation/velocity text="120"
+%% <- /museScore/Score/Part/Instrument/Articulation/velocity
+%% -> /museScore/Score/Part/Instrument/Articulation/gateTime text="50"
+%% <- /museScore/Score/Part/Instrument/Articulation/gateTime
+%% <- /museScore/Score/Part/Instrument/Articulation
+%% -> /museScore/Score/Part/Instrument/Articulation attr="[('name', 'marcatoTenuto')]"
+%% -> /museScore/Score/Part/Instrument/Articulation/velocity text="120"
+%% <- /museScore/Score/Part/Instrument/Articulation/velocity
+%% -> /museScore/Score/Part/Instrument/Articulation/gateTime text="100"
+%% <- /museScore/Score/Part/Instrument/Articulation/gateTime
+%% <- /museScore/Score/Part/Instrument/Articulation
+%% -> /museScore/Score/Part/Instrument/Channel
+%% -> /museScore/Score/Part/Instrument/Channel/controller attr="[('ctrl', '32'), ('value', '17')]"
+%% <- /museScore/Score/Part/Instrument/Channel/controller
+%% -> /museScore/Score/Part/Instrument/Channel/program attr="[('value', '52')]"
+%% <- /museScore/Score/Part/Instrument/Channel/program
+%% -> /museScore/Score/Part/Instrument/Channel/synti text="Fluid"
+%% <- /museScore/Score/Part/Instrument/Channel/synti
+%% -> /museScore/Score/Part/Instrument/Channel/midiPort text="0"
+%% <- /museScore/Score/Part/Instrument/Channel/midiPort
+%% -> /museScore/Score/Part/Instrument/Channel/midiChannel text="6"
 %% <- /museScore/Score/Part/Instrument/Channel/midiChannel
 %% <- /museScore/Score/Part/Instrument/Channel
 %% <- /museScore/Score/Part/Instrument
@@ -24862,6 +25064,8277 @@
 %% <- /museScore/Score/Staff/Measure
 %% onMeasureExit
 %% <- /museScore/Score/Staff
+%% -> /museScore/Score/Staff attr="[('id', '6')]"
+%% staff: 6
+%% -> /museScore/Score/Staff/Measure attr="[('len', '1/4')]"
+%% onMeasureEnter: 1
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/KeySig
+%% keySignature: -1
+%% -> /museScore/Score/Staff/Measure/voice/KeySig/accidental text="-1"
+%% <- /museScore/Score/Staff/Measure/voice/KeySig/accidental
+%% <- /museScore/Score/Staff/Measure/voice/KeySig
+%% -> /museScore/Score/Staff/Measure/voice/TimeSig
+%% timeSignature: 2/2
+%% -> /museScore/Score/Staff/Measure/voice/TimeSig/sigN text="2"
+%% <- /museScore/Score/Staff/Measure/voice/TimeSig/sigN
+%% -> /museScore/Score/Staff/Measure/voice/TimeSig/sigD text="2"
+%% <- /museScore/Score/Staff/Measure/voice/TimeSig/sigD
+%% <- /museScore/Score/Staff/Measure/voice/TimeSig
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: quarter
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 2
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: measure
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="measure"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Rest/duration text="2/2"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/duration
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 3
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: measure
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="measure"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Rest/duration text="2/2"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/duration
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 4
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: measure
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="measure"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Rest/duration text="2/2"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/duration
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 5
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: measure
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="measure"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Rest/duration text="2/2"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/duration
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 6
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: measure
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="measure"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Rest/duration text="2/2"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/duration
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 7
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: measure
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="measure"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Rest/duration text="2/2"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/duration
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 8
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: measure
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="measure"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Rest/duration text="2/2"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/duration
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 9
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: measure
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="measure"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Rest/duration text="2/2"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/duration
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 10
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: measure
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="measure"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Rest/duration text="2/2"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/duration
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 11
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: measure
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="measure"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Rest/duration text="2/2"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/duration
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/BarLine
+%% barLine: double
+%% -> /museScore/Score/Staff/Measure/voice/BarLine/subtype text="double"
+%% <- /museScore/Score/Staff/Measure/voice/BarLine/subtype
+%% <- /museScore/Score/Staff/Measure/voice/BarLine
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 12
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: measure
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="measure"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Rest/duration text="2/2"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/duration
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 13
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: measure
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="measure"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Rest/duration text="2/2"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/duration
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/BarLine
+%% barLine: double
+%% -> /museScore/Score/Staff/Measure/voice/BarLine/subtype text="double"
+%% <- /museScore/Score/Staff/Measure/voice/BarLine/subtype
+%% <- /museScore/Score/Staff/Measure/voice/BarLine
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 14
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 69 17 eighth 
+%% pitchDiff 9, lastPitch 60, pitch 69, tpcDiff 3
+%% pitchDiff >
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Si begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Si"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="69"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="17"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 69 17 eighth 
+%% pitchDiff 0, lastPitch 69, pitch 69, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 no middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="no"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="69"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="17"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 69 17 eighth 
+%% pitchDiff 0, lastPitch 69, pitch 69, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 vi end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="vi"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="69"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="17"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 69 17 eighth 
+%% pitchDiff 0, lastPitch 69, pitch 69, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ljud begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ljud"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="69"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="17"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 69 17 eighth 
+%% pitchDiff 0, lastPitch 69, pitch 69, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="-1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="69"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="17"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 69 17 quarter 1
+%% pitchDiff 0, lastPitch 69, pitch 69, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/dots text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/dots
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ski, end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ski,"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="69"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="17"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 15
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 eighth 
+%% pitchDiff -2, lastPitch 69, pitch 67, tpcDiff -2
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 do begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="do"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 eighth 
+%% pitchDiff 0, lastPitch 67, pitch 67, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 kle end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="kle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 eighth 
+%% pitchDiff 0, lastPitch 67, pitch 67, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 će 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="će"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 eighth 
+%% pitchDiff 0, lastPitch 67, pitch 67, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 vam 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="vam"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 eighth 
+%% pitchDiff 0, lastPitch 67, pitch 67, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 sr begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="sr"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 eighth 
+%% pitchDiff 0, lastPitch 67, pitch 67, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ca end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ca"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 65 13 eighth 
+%% pitchDiff -2, lastPitch 67, pitch 65, tpcDiff -2
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tvr begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tvr"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="65"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="13"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 64 18 eighth 
+%% pitchDiff -1, lastPitch 65, pitch 64, tpcDiff 5
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 da end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="da"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="64"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="18"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 16
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 64 18 quarter 
+%% pitchDiff 0, lastPitch 64, pitch 64, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 o begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="o"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="64"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="18"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 65 13 eighth 
+%% pitchDiff 1, lastPitch 64, pitch 65, tpcDiff -5
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 sta middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="sta"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="65"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="13"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 65 13 eighth 
+%% pitchDiff 0, lastPitch 65, pitch 65, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ti? end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ti?"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="65"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="13"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 65 13 half 
+%% pitchDiff 0, lastPitch 65, pitch 65, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="-1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="65"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="13"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 17
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: whole
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="whole"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 18
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 70 12 eighth 
+%% pitchDiff 5, lastPitch 65, pitch 70, tpcDiff -1
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Do begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Do"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="70"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="12"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 70 12 eighth 
+%% pitchDiff 0, lastPitch 70, pitch 70, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 kle end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="kle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="70"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="12"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 70 12 eighth 
+%% pitchDiff 0, lastPitch 70, pitch 70, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 će begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="će"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="70"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="12"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 70 12 eighth 
+%% pitchDiff 0, lastPitch 70, pitch 70, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 te end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="te"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="70"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="12"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 70 12 eighth 
+%% pitchDiff 0, lastPitch 70, pitch 70, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 pra begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="pra"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="70"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="12"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 70 12 eighth 
+%% pitchDiff 0, lastPitch 70, pitch 70, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 zne end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="zne"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="70"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="12"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 70 12 eighth 
+%% pitchDiff 0, lastPitch 70, pitch 70, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 rije begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="rije"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="70"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="12"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 70 12 eighth 
+%% pitchDiff 0, lastPitch 70, pitch 70, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 či end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="či"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="70"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="12"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 19
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 70 12 eighth 
+%% pitchDiff 0, lastPitch 70, pitch 70, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 vo begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="vo"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="70"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="12"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 69 17 eighth 
+%% pitchDiff -1, lastPitch 70, pitch 69, tpcDiff 5
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 lje middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="lje"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="69"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="17"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 69 17 quarter 
+%% pitchDiff 0, lastPitch 69, pitch 69, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ti, end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ti,"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="69"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="17"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: quarter
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 69 17 eighth 
+%% pitchDiff 0, lastPitch 69, pitch 69, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 la begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="la"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="69"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="17"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 65 13 eighth 
+%% pitchDiff -4, lastPitch 69, pitch 65, tpcDiff -4
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ži end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ži"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="65"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="13"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 20
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 65 13 quarter 
+%% pitchDiff 0, lastPitch 65, pitch 65, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 slije begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="slije"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="65"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="13"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 eighth 
+%% pitchDiff 2, lastPitch 65, pitch 67, tpcDiff 2
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 di middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="di"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 eighth 
+%% pitchDiff 0, lastPitch 67, pitch 67, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ti? end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ti?"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 half 
+%% pitchDiff 0, lastPitch 67, pitch 67, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="-1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 21
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: half
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: eighth
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 60 14 eighth 
+%% pitchDiff -7, lastPitch 67, pitch 60, tpcDiff -1
+%% pitchDiff <
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Znaj begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Znaj"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="60"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 60 14 eighth 
+%% pitchDiff 0, lastPitch 60, pitch 60, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 te end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="te"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="60"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 60 14 eighth 
+%% pitchDiff 0, lastPitch 60, pitch 60, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 da 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="da"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="60"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 22
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 62 16 quarter 
+%% pitchDiff 2, lastPitch 60, pitch 62, tpcDiff 2
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Ja begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Ja"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="62"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="16"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 62 16 quarter 
+%% pitchDiff 0, lastPitch 62, pitch 62, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 hve end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="hve"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="62"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="16"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: half
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 23
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 64 18 eighth 
+%% pitchDiff 2, lastPitch 62, pitch 64, tpcDiff 2
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ču begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ču"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="64"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="18"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 64 18 eighth 
+%% pitchDiff 0, lastPitch 64, pitch 64, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 de middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="de"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="64"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="18"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 64 18 eighth 
+%% pitchDiff 0, lastPitch 64, pitch 64, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 sno end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="sno"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="64"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="18"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 64 18 eighth 
+%% pitchDiff 0, lastPitch 64, pitch 64, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 vo begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="vo"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="64"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="18"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 64 18 eighth 
+%% pitchDiff 0, lastPitch 64, pitch 64, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="-1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="64"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="18"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 64 18 eighth 
+%% pitchDiff 0, lastPitch 64, pitch 64, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 di end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="di"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="64"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="18"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 64 18 eighth 
+%% pitchDiff 0, lastPitch 64, pitch 64, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 svo begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="svo"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="64"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="18"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 64 18 eighth 
+%% pitchDiff 0, lastPitch 64, pitch 64, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 je end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="je"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="64"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="18"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 24
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 64 18 quarter 
+%% pitchDiff 0, lastPitch 64, pitch 64, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 sve begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="sve"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="64"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="18"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 65 13 quarter 
+%% pitchDiff 1, lastPitch 64, pitch 65, tpcDiff -5
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 te end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="te"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="65"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="13"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: half
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 25
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: half
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: quarter
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: eighth
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 65 13 eighth 
+%% pitchDiff 0, lastPitch 65, pitch 65, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 U begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="U"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="65"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="13"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 26
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 eighth 
+%% pitchDiff 2, lastPitch 65, pitch 67, tpcDiff 2
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 sli middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="sli"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 eighth 
+%% pitchDiff 0, lastPitch 67, pitch 67, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ša middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ša"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 69 17 eighth 
+%% pitchDiff 2, lastPitch 67, pitch 69, tpcDiff 2
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 va end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="va"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="69"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="17"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 70 12 eighth 
+%% pitchDiff 1, lastPitch 69, pitch 70, tpcDiff -5
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 mo begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="mo"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="70"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="12"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 70 12 eighth 
+%% pitchDiff 0, lastPitch 70, pitch 70, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="-1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="70"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="12"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 69 17 eighth 
+%% pitchDiff -1, lastPitch 70, pitch 69, tpcDiff 5
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 li middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="li"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="69"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="17"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 quarter 
+%% pitchDiff -2, lastPitch 69, pitch 67, tpcDiff -2
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tve, end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tve,"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 27
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: quarter
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 eighth 
+%% pitchDiff 0, lastPitch 67, pitch 67, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 kad 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="kad"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 eighth 
+%% pitchDiff 0, lastPitch 67, pitch 67, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Ga 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Ga"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 eighth 
+%% pitchDiff 0, lastPitch 67, pitch 67, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 zo begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="zo"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 eighth 
+%% pitchDiff 0, lastPitch 67, pitch 67, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 vem end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="vem"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: eighth
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 65 13 eighth 
+%% pitchDiff -2, lastPitch 67, pitch 65, tpcDiff -2
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 On 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="On"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="65"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="13"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 28
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 65 13 eighth 
+%% pitchDiff 0, lastPitch 65, pitch 65, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ču begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ču"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="65"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="13"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 eighth 
+%% pitchDiff 2, lastPitch 65, pitch 67, tpcDiff 2
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 je end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="je"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 half 1
+%% pitchDiff 0, lastPitch 67, pitch 67, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/dots text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/dots
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 me 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="me"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 29
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: measure
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="measure"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Rest/duration text="2/2"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/duration
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 30
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 69 17 eighth 
+%% pitchDiff 2, lastPitch 67, pitch 69, tpcDiff 2
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Smi begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Smi"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="69"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="17"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 69 17 eighth 
+%% pitchDiff 0, lastPitch 69, pitch 69, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 re middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="re"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="69"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="17"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 69 17 eighth 
+%% pitchDiff 0, lastPitch 69, pitch 69, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 na end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="na"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="69"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="17"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 69 17 eighth 
+%% pitchDiff 0, lastPitch 69, pitch 69, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 sr middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="sr"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="69"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="17"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 69 17 eighth 
+%% pitchDiff 0, lastPitch 69, pitch 69, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="-1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="69"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="17"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 69 17 quarter 1
+%% pitchDiff 0, lastPitch 69, pitch 69, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/dots text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/dots
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ca end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ca"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="69"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="17"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 31
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 eighth 
+%% pitchDiff -2, lastPitch 69, pitch 67, tpcDiff -2
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 pro begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="pro"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 eighth 
+%% pitchDiff 0, lastPitch 67, pitch 67, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 mi middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="mi"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 eighth 
+%% pitchDiff 0, lastPitch 67, pitch 67, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 sli middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="sli"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 eighth 
+%% pitchDiff 0, lastPitch 67, pitch 67, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 te end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="te"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 eighth 
+%% pitchDiff 0, lastPitch 67, pitch 67, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 sa begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="sa"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 eighth 
+%% pitchDiff 0, lastPitch 67, pitch 67, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 da end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="da"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 65 13 eighth 
+%% pitchDiff -2, lastPitch 67, pitch 65, tpcDiff -2
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 i 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="i"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="65"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="13"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 64 18 eighth 
+%% pitchDiff -1, lastPitch 65, pitch 64, tpcDiff 5
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ne 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ne"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="64"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="18"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 32
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 64 18 quarter 
+%% pitchDiff 0, lastPitch 64, pitch 64, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 grije begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="grije"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="64"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="18"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 65 13 eighth 
+%% pitchDiff 1, lastPitch 64, pitch 65, tpcDiff -5
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ši middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ši"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="65"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="13"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 65 13 eighth 
+%% pitchDiff 0, lastPitch 65, pitch 65, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 te. end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="te."
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="65"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="13"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 65 13 half 
+%% pitchDiff 0, lastPitch 65, pitch 65, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="-1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="65"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="13"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 33
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: whole
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="whole"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 34
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 70 12 eighth 
+%% pitchDiff 5, lastPitch 65, pitch 70, tpcDiff -1
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Dr begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Dr"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="70"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="12"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 70 12 eighth 
+%% pitchDiff 0, lastPitch 70, pitch 70, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 šči middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="šči"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="70"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="12"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 70 12 eighth 
+%% pitchDiff 0, lastPitch 70, pitch 70, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 te end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="te"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="70"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="12"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 70 12 eighth 
+%% pitchDiff 0, lastPitch 70, pitch 70, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 na 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="na"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="70"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="12"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 70 12 eighth 
+%% pitchDiff 0, lastPitch 70, pitch 70, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tren 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tren"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="70"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="12"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 70 12 eighth 
+%% pitchDiff 0, lastPitch 70, pitch 70, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 na 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="na"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="70"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="12"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 70 12 eighth 
+%% pitchDiff 0, lastPitch 70, pitch 70, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 svo begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="svo"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="70"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="12"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 70 12 eighth 
+%% pitchDiff 0, lastPitch 70, pitch 70, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 me end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="me"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="70"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="12"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 35
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 70 12 eighth 
+%% pitchDiff 0, lastPitch 70, pitch 70, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 le begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="le"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="70"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="12"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 69 17 eighth 
+%% pitchDiff -1, lastPitch 70, pitch 69, tpcDiff 5
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ža middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ža"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="69"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="17"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 69 17 quarter 
+%% pitchDiff 0, lastPitch 69, pitch 69, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ju end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ju"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="69"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="17"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: quarter
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 69 17 eighth 
+%% pitchDiff 0, lastPitch 69, pitch 69, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 i 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="i"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="69"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="17"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 65 13 eighth 
+%% pitchDiff -4, lastPitch 69, pitch 65, tpcDiff -4
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 za begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="za"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="65"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="13"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 36
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 65 13 quarter 
+%% pitchDiff 0, lastPitch 65, pitch 65, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 nje middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="nje"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="65"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="13"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 eighth 
+%% pitchDiff 2, lastPitch 65, pitch 67, tpcDiff 2
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 mi middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="mi"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 eighth 
+%% pitchDiff 0, lastPitch 67, pitch 67, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 te. end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="te."
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 half 
+%% pitchDiff 0, lastPitch 67, pitch 67, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="-1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 37
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: half
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: eighth
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 60 14 eighth 
+%% pitchDiff -7, lastPitch 67, pitch 60, tpcDiff -1
+%% pitchDiff <
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Jer 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Jer"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="60"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 60 14 eighth 
+%% pitchDiff 0, lastPitch 60, pitch 60, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 mno begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="mno"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="60"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 60 14 eighth 
+%% pitchDiff 0, lastPitch 60, pitch 60, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 gi end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="gi"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="60"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 38
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 62 16 quarter 
+%% pitchDiff 2, lastPitch 60, pitch 62, tpcDiff 2
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ka begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ka"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="62"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="16"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 62 16 quarter 
+%% pitchDiff 0, lastPitch 62, pitch 62, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 žu: end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="žu:"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="62"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="16"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: half
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 39
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 64 18 eighth 
+%% pitchDiff 2, lastPitch 62, pitch 64, tpcDiff 2
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Tko 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Tko"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="64"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="18"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 64 18 eighth 
+%% pitchDiff 0, lastPitch 64, pitch 64, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 će 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="će"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="64"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="18"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 64 18 eighth 
+%% pitchDiff 0, lastPitch 64, pitch 64, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 po begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="po"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="64"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="18"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 64 18 eighth 
+%% pitchDiff 0, lastPitch 64, pitch 64, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ka middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ka"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="64"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="18"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 64 18 eighth 
+%% pitchDiff 0, lastPitch 64, pitch 64, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="-1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="64"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="18"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 64 18 eighth 
+%% pitchDiff 0, lastPitch 64, pitch 64, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 za middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="za"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="64"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="18"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 64 18 eighth 
+%% pitchDiff 0, lastPitch 64, pitch 64, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ti end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/ticks_f text="0/4"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/ticks_f
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ti"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="64"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="18"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 64 18 eighth 
+%% pitchDiff 0, lastPitch 64, pitch 64, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 nam 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="nam"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="64"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="18"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 40
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 64 18 quarter 
+%% pitchDiff 0, lastPitch 64, pitch 64, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 sre begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="sre"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="64"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="18"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 65 13 quarter 
+%% pitchDiff 1, lastPitch 64, pitch 65, tpcDiff -5
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ću? end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ću?"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="65"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="13"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: half
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 41
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: whole
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="whole"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 42
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 eighth 
+%% pitchDiff 2, lastPitch 65, pitch 67, tpcDiff 2
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 O begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="O"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 eighth 
+%% pitchDiff 0, lastPitch 67, pitch 67, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 staj middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="staj"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 69 17 eighth 
+%% pitchDiff 2, lastPitch 67, pitch 69, tpcDiff 2
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 te end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="te"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="69"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="17"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 70 12 eighth 
+%% pitchDiff 1, lastPitch 69, pitch 70, tpcDiff -5
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 pra begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="pra"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="70"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="12"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 70 12 eighth 
+%% pitchDiff 0, lastPitch 70, pitch 70, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="-1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="70"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="12"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 69 17 eighth 
+%% pitchDiff -1, lastPitch 70, pitch 69, tpcDiff 5
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ve middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ve"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="69"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="17"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 quarter 
+%% pitchDiff -2, lastPitch 69, pitch 67, tpcDiff -2
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 dni end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="dni"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 43
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: quarter
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 eighth 
+%% pitchDiff 0, lastPitch 67, pitch 67, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 i 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="i"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 eighth 
+%% pitchDiff 0, lastPitch 67, pitch 67, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 u 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="u"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 eighth 
+%% pitchDiff 0, lastPitch 67, pitch 67, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Ja begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Ja"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 eighth 
+%% pitchDiff 0, lastPitch 67, pitch 67, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 hvu end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="hvu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: eighth
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 65 13 eighth 
+%% pitchDiff -2, lastPitch 67, pitch 65, tpcDiff -2
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 se 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="se"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="65"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="13"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 44
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 65 13 eighth 
+%% pitchDiff 0, lastPitch 65, pitch 65, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 u begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="u"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="65"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="13"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 eighth 
+%% pitchDiff 2, lastPitch 65, pitch 67, tpcDiff 2
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 zdaj middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="zdaj"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 67 15 half 1
+%% pitchDiff 0, lastPitch 67, pitch 67, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/dots text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/dots
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 te. end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="te."
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="67"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="15"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 45
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: measure
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="measure"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Rest/duration text="2/2"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/duration
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 46
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: measure
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="measure"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Rest/duration text="2/2"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/duration
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 47
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: measure
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="measure"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Rest/duration text="2/2"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/duration
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 48
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: measure
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="measure"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Rest/duration text="2/2"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/duration
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 49
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: measure
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="measure"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Rest/duration text="2/2"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/duration
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 50
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: measure
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="measure"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Rest/duration text="2/2"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/duration
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 51
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: measure
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="measure"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Rest/duration text="2/2"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/duration
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 52
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: measure
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="measure"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Rest/duration text="2/2"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/duration
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 53
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: measure
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="measure"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Rest/duration text="2/2"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/duration
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 54
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: measure
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="measure"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Rest/duration text="2/2"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/duration
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 55
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: measure
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="measure"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Rest/duration text="2/2"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/duration
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% <- /museScore/Score/Staff
+%% -> /museScore/Score/Staff attr="[('id', '7')]"
+%% staff: 7
+%% -> /museScore/Score/Staff/Measure attr="[('len', '1/4')]"
+%% onMeasureEnter: 1
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/KeySig
+%% keySignature: -1
+%% -> /museScore/Score/Staff/Measure/voice/KeySig/accidental text="-1"
+%% <- /museScore/Score/Staff/Measure/voice/KeySig/accidental
+%% <- /museScore/Score/Staff/Measure/voice/KeySig
+%% -> /museScore/Score/Staff/Measure/voice/TimeSig
+%% timeSignature: 2/2
+%% -> /museScore/Score/Staff/Measure/voice/TimeSig/sigN text="2"
+%% <- /museScore/Score/Staff/Measure/voice/TimeSig/sigN
+%% -> /museScore/Score/Staff/Measure/voice/TimeSig/sigD text="2"
+%% <- /museScore/Score/Staff/Measure/voice/TimeSig/sigD
+%% <- /museScore/Score/Staff/Measure/voice/TimeSig
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 12, lastPitch 60, pitch 72, tpcDiff 0
+%% pitchDiff >
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Kad 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Kad"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 za begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="za"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 2
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 zo middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="zo"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 vem end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="vem"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Te 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Te"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="-1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: eighth
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 U begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="U"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 3
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 sli middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="sli"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ši end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ši"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 me 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="me"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="-1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: quarter
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 4
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Bo begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Bo"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 že, end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="že,"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 prav begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="prav"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="-1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 do end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="do"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 mo begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="mo"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/measures text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/measures
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="-7/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 5
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/measures text="-1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/measures
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="7/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 1
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/dots text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/dots
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ja, end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ja,"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: eighth
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Ti 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Ti"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 što 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="što"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 me 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="me"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 6
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 u 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="u"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tje begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tje"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 sko middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="sko"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="-1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 bi end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="bi"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 i begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="i"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/measures text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/measures
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="-7/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 7
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/measures text="-1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/measures
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="7/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 zba middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="zba"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 half 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 vi end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="vi"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: eighth
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 U begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="U"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 8
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 sli middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="sli"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ši end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ši"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 mol begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="mol"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="-1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 bu end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="bu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 mo begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="mo"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/measures text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/measures
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="-7/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 9
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/measures text="-1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/measures
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="7/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 1
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/dots text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/dots
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ju end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ju"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: quarter
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Kad 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Kad"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 za 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="za"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 10
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 sli middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="sli"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ši end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ši"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 mol begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="mol"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="-1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 bu end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="bu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 mo begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="mo"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/measures text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/measures
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="-7/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 11
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/measures text="-1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/measures
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="7/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 1
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/dots text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/dots
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ju end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ju"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: half
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/BarLine
+%% barLine: double
+%% -> /museScore/Score/Staff/Measure/voice/BarLine/subtype text="double"
+%% <- /museScore/Score/Staff/Measure/voice/BarLine/subtype
+%% <- /museScore/Score/Staff/Measure/voice/BarLine
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 12
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 sli middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="sli"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ši end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ši"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 mol begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="mol"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="-1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 bu end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="bu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 mo begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="mo"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/measures text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/measures
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="-7/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 13
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/measures text="-1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/measures
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="7/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 1
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/dots text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/dots
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ju end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ju"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: half
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/BarLine
+%% barLine: double
+%% -> /museScore/Score/Staff/Measure/voice/BarLine/subtype text="double"
+%% <- /museScore/Score/Staff/Measure/voice/BarLine/subtype
+%% <- /museScore/Score/Staff/Measure/voice/BarLine
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 14
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: half
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 15
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: half
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 16
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: half
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 17
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: half
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 18
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: half
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 19
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: half
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 20
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: half
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 21
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: half
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 22
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Ja begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Ja"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 half 1
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/dots text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/dots
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 hve end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/ticks text="5280"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/ticks
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/ticks_f text="11/4"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/ticks_f
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="hve"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/measures text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/measures
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="-1/4"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 23
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 whole 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="whole"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/measures text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/measures
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/measures text="-1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/measures
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="1/4"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 24
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 whole 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="whole"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/measures text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/measures
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/measures text="-1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/measures
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 25
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 half 1
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/dots text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/dots
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/measures text="-1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/measures
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: eighth
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 U begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="U"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 26
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 sli middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="sli"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ša middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ša"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 va end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="va"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 mo begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="mo"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="-1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 li middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="li"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tve end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tve"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 27
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: quarter
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 kad 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="kad"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ga 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ga"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 zo begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="zo"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 vem end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="vem"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: eighth
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 On 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="On"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 28
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ču begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ču"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 je end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="je"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 half 1
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/dots text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/dots
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 me 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="me"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 29
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: half
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: quarter
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Kad 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Kad"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 za 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="za"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 30
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: half
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 31
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: half
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 32
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: half
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 33
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: half
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 34
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: half
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 35
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: half
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 36
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: half
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 37
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tu 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: half
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 38
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ka begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ka"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 half 1
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/dots text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/dots
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 žu end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/ticks text="5280"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/ticks
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/ticks_f text="11/4"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/ticks_f
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="žu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/measures text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/measures
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="-1/4"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 39
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 whole 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="whole"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/measures text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/measures
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/measures text="-1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/measures
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="1/4"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 40
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 whole 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="whole"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/measures text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/measures
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/measures text="-1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/measures
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 41
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 whole 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="whole"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/measures text="-1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/measures
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 42
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 O begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="O"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 staj middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="staj"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 te end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="te"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 pra begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="pra"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="-1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ve middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ve"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 dni end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="dni"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 43
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: quarter
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 i 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="i"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 u 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="u"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Ja begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Ja"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 hvu end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="hvu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: eighth
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 se 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="se"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 44
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 u begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="u"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 zdaj middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="zdaj"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 half 1
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/dots text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/dots
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 te. end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="te."
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 45
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: half
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: quarter
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Kad 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Kad"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 za begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="za"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 46
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 zo middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="zo"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 vem end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="vem"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Te 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Te"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="-1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: eighth
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 U begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="U"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 47
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 sli middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="sli"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ši end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ši"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 me 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="me"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="-1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: quarter
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 48
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Bo begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Bo"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 že, end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="že,"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 prav begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="prav"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="-1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 do end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="do"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 mo begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="mo"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/measures text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/measures
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="-7/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 49
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/measures text="-1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/measures
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="7/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 1
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/dots text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/dots
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ja, end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ja,"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: eighth
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Ti 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Ti"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 što 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="što"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 me 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="me"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 50
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 u 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="u"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 tje begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="tje"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 sko middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="sko"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="-1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 bi end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="bi"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 i begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="i"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/measures text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/measures
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="-7/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 51
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/measures text="-1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/measures
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="7/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 zba middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="zba"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 half 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 vi end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="vi"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: eighth
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 U begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="U"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 52
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 sli middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="sli"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ši end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ši"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 mol begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="mol"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="-1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 bu end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="bu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 mo begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="mo"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/measures text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/measures
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="-7/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 53
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/measures text="-1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/measures
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="7/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 1
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/dots text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/dots
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ju end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ju"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: quarter
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 Kad 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="Kad"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 za 
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="za"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 54
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 sli middle
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="sli"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Beam
+%% <- /museScore/Score/Staff/Measure/voice/Beam
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ši end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ši"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 mol begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="mol"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="-1/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 bu end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="bu"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 mo begin
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="begin"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="mo"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieStart
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/Tie
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/measures text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/measures
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions text="-7/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% -> /museScore/Score/Staff/Measure
+%% onMeasureEnter: 55
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 eighth 
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="eighth"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner attr="[('type', 'Tie')]"
+%% tieEnd
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/measures text="-1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/measures
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions text="7/8"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location/fractions
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% chord: 72 14 quarter 1
+%% pitchDiff 0, lastPitch 72, pitch 72, tpcDiff 0
+%% -> /museScore/Score/Staff/Measure/voice/Chord/dots text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/dots
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% lyrics: 0 ju end
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ju"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% rest: half
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="half"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% onMeasureExit
+%% <- /museScore/Score/Staff
 %% <- /museScore/Score
 %% <- /museScore
 %% #####
@@ -24877,7 +33350,10 @@
   composer = "Petra Horvat"
 }
 
-staffOne = \relative c' {
+voltaTwoB = \markup{ 2. \text { to \box \bold B }}
+voltaFourC = \markup{ 4. \text { to \box \bold C }} 
+
+staffLead = \relative c' {
   \clef treble
   \key f \major
   \time 2/2
@@ -24892,25 +33368,27 @@ staffOne = \relative c' {
   c4 c8 a8 ~ a8 g4 g8 ~ |
   g8 a8 f2 r8 f8 |
   
-  \set Score.repeatCommands = #'((volta "1.3."))
+  \set Score.repeatCommands = #'((volta "1. 3."))
   b4 a8 g8 ~ g8 f4 d8 ~ |
   d8 c4. r4 c8 c8 \bar ":|." |
   
   \set Score.repeatCommands = #'((volta #f))
   
-  \set Score.repeatCommands = #'((volta "2."))
+  \set Score.repeatCommands = #(list (list 'volta voltaTwoB)) 
   b'4 a8 g8 ~ g8 f4 d8 ~ |
   d8 c4. r2 \bar "||" |
   
   \set Score.repeatCommands = #'((volta #f))
   
-  \set Score.repeatCommands = #'((volta "4."))
+  \set Score.repeatCommands = #(list (list 'volta voltaFourC))
   b'4 a8 g8 ~ g8 f4 d8 ~ |
   d8 c4. r2 \bar "||" |
   
   \mark \markup { \box \bold B }
-  
   \set Score.repeatCommands = #'((volta #f))
+
+  \break
+
   a'8 a8 a8 a8 ~ a8 a4. |
   g8 g8 g8 g8 g8 g8 f8 e8 |
   e4 f8 f8 ~ f2 |
@@ -24964,10 +33442,11 @@ staffOne = \relative c' {
   c'4 h8 a8 ~ a8 g4 e8 ~ |
   e8 d4. r2 
   \set Score.repeatCommands = #'((volta #f))
-  | \bar "|."
+  |
+  \bar "|."
 }
 
-staffTwo = \relative c' {
+staffSopran = \relative c' {
   \clef treble
   \key f \major
   \time 2/2
@@ -25028,7 +33507,7 @@ staffTwo = \relative c' {
   e8 d4. r2 |
 }
 
-staffThree = \relative c' {
+staffAlt = \relative c' {
   \clef treble
   \key f \major
   \time 2/2
@@ -25089,7 +33568,7 @@ staffThree = \relative c' {
   e8 d4. r2 |
 }
 
-staffFour = \relative c' {
+staffTenor = \relative c' {
   \clef tenorG
   \clef bass
   \key f \major
@@ -25151,7 +33630,7 @@ staffFour = \relative c' {
   a8 a4. r2 |
 }
 
-staffFive = \relative c' {
+staffBass = \relative c' {
   \clef bass
   \key f \major
   \time 2/2
@@ -25212,7 +33691,129 @@ staffFive = \relative c' {
   g8 fis4. r2 |
 }
 
-lyricOneZero = \lyricmode {
+staffSolo = \relative c' {
+  \clef treble
+  \key f \major
+  \time 2/2
+  r4 |
+  r1 |
+  r1 |
+  r1 |
+  r1 |
+  r1 |
+  r1 |
+  r1 |
+  r1 |
+  r1 |
+  r1 \bar "||" |
+  r1 |
+  r1 \bar "||" |
+  a'8 a8 a8 a8 ~ a8 a4. |
+  g8 g8 g8 g8 g8 g8 f8 e8 |
+  e4 f8 f8 ~ f2 |
+  r1 |
+  b8 b8 b8 b8 b8 b8 b8 b8 |
+  b8 a8 a4 r4 a8 f8 |
+  f4 g8 g8 ~ g2 |
+  r2 r8 c,8 c8 c8 |
+  d4 d4 r2 |
+  e8 e8 e8 e8 ~ e8 e8 e8 e8 |
+  e4 f4 r2 |
+  r2 r4 r8 f8 |
+  g8 g8 a8 b8 ~ b8 a8 g4 |
+  r4 g8 g8 g8 g8 r8 f8 |
+  f8 g8 g2. |
+  r1 |
+  a8 a8 a8 a8 ~ a8 a4. |
+  g8 g8 g8 g8 g8 g8 f8 e8 |
+  e4 f8 f8 ~ f2 |
+  r1 |
+  b8 b8 b8 b8 b8 b8 b8 b8 |
+  b8 a8 a4 r4 a8 f8 |
+  f4 g8 g8 ~ g2 |
+  r2 r8 c,8 c8 c8 |
+  d4 d4 r2 |
+  e8 e8 e8 e8 ~ e8 e8 e8 e8 |
+  e4 f4 r2 |
+  r1 |
+  g8 g8 a8 b8 ~ b8 a8 g4 |
+  r4 g8 g8 g8 g8 r8 f8 |
+  f8 g8 g2. |
+  r1 |
+  r1 |
+  r1 |
+  r1 |
+  r1 |
+  r1 |
+  r1 |
+  r1 |
+  r1 |
+  r1 |
+  r1 |
+}
+
+staffBack = \relative c' {
+  \clef treble
+  \key f \major
+  \time 2/2
+  c'8 c8 |
+  c4 c8 c8 ~ c4 r8 c8 |
+  c4 c8 c8 ~ c4 r4 |
+  c4 c8 c8 ~ c4 c8 c8 ~ |
+  c8 c4. r8 c8 c8 c8 |
+  c4 c8 c8 ~ c8 c4 c8 ~ |
+  c8 c8 c2 r8 c8 |
+  c4 c8 c8 ~ c8 c4 c8 ~ |
+  c8 c4. r4 c8 c8 |
+  c4 c8 c8 ~ c8 c4 c8 ~ |
+  c8 c4. r2 \bar "||" |
+  c4 c8 c8 ~ c8 c4 c8 ~ |
+  c8 c4. r2 \bar "||" |
+  c8 c8 c8 c8 r2 |
+  c8 c8 c8 c8 r2 |
+  c8 c8 c8 c8 r2 |
+  c8 c8 c8 c8 r2 |
+  c8 c8 c8 c8 r2 |
+  c8 c8 c8 c8 r2 |
+  c8 c8 c8 c8 r2 |
+  c8 c8 c8 c8 r2 |
+  c4 c2. ~ |
+  c1 ~ |
+  c1 ~ |
+  c2. r8 c8 |
+  c8 c8 c8 c8 ~ c8 c8 c4 |
+  r4 c8 c8 c8 c8 r8 c8 |
+  c8 c8 c2. |
+  r2 r4 c8 c8 |
+  c8 c8 c8 c8 r2 |
+  c8 c8 c8 c8 r2 |
+  c8 c8 c8 c8 r2 |
+  c8 c8 c8 c8 r2 |
+  c8 c8 c8 c8 r2 |
+  c8 c8 c8 c8 r2 |
+  c8 c8 c8 c8 r2 |
+  c8 c8 c8 c8 r2 |
+  c4 c2. ~ |
+  c1 ~ |
+  c1 ~ |
+  c1 |
+  c8 c8 c8 c8 ~ c8 c8 c4 |
+  r4 c8 c8 c8 c8 r8 c8 |
+  c8 c8 c2. |
+  r2 r4 c8 c8 |
+  c4 c8 c8 ~ c4 r8 c8 |
+  c4 c8 c8 ~ c4 r4 |
+  c4 c8 c8 ~ c4 c8 c8 ~ |
+  c8 c4. r8 c8 c8 c8 |
+  c4 c8 c8 ~ c8 c4 c8 ~ |
+  c8 c8 c2 r8 c8 |
+  c4 c8 c8 ~ c8 c4 c8 ~ |
+  c8 c4. r4 c8 c8 |
+  c4 c8 c8 ~ c8 c4 c8 ~ |
+  c8 c4. r2 |
+}
+
+lyricLeadZero = \lyricmode {
   Kad za -- zo -- vem Te U -- sli -- ši me Bo -- že, 
   prav -- do mo -- ja, 
   Ti što me u tje -- sko -- bi i -- zba -- vi U -- sli -- ši mol -- bu mo -- ju Kad za sli -- ši mol -- bu mo -- ju sli -- ši mol -- bu mo -- ju Si -- no -- vi ljud -- ski, 
@@ -25230,7 +33831,7 @@ lyricOneZero = \lyricmode {
   Ti što me u tje -- sko -- bi i -- zba -- vi U -- sli -- ši mol -- bu mo -- ju Kad za sli -- ši mol -- bu mo -- ju 
 }
 
-lyricTwoZero = \lyricmode {
+lyricSopranZero = \lyricmode {
   Kad za -- zo -- vem Te U -- sli -- ši me Bo -- že, 
   prav -- do mo -- ja, 
   Ti što me u tje -- sko -- bi i -- zba -- vi U -- sli -- ši mol -- bu mo -- ju Kad za sli -- ši mol -- bu mo -- ju sli -- ši mol -- bu mo -- ju Tu tu tu tu tu tu tu tu Ja -- hve U -- sli -- ša -- va mo -- li -- tve kad ga zo -- vem On ču -- je me Kad za Tu tu tu tu tu tu tu tu ka -- žu O -- staj -- te pra -- ve -- dni i u Ja -- hvu se u -- zdaj -- te. 
@@ -25239,7 +33840,7 @@ lyricTwoZero = \lyricmode {
   Ti što me u tje -- sko -- bi i -- zba -- vi U -- sli -- ši mol -- bu mo -- ju Kad za sli -- ši mol -- bu mo -- ju 
 }
 
-lyricThreeZero = \lyricmode {
+lyricAltZero = \lyricmode {
   Kad za -- zo -- vem Te U -- sli -- ši me Bo -- že, 
   prav -- do mo -- ja, 
   Ti što me u tje -- sko -- bi i -- zba -- vi U -- sli -- ši mol -- bu mo -- ju Kad za sli -- ši mol -- bu mo -- ju sli -- ši mol -- bu mo -- ju Tu tu tu tu tu tu tu tu Ja -- hve U -- sli -- ša -- va mo -- li -- tve kad ga zo -- vem On ču -- je me Kad za Tu tu tu tu tu tu tu tu ka -- žu O -- staj -- te pra -- ve -- dni i u Ja -- hvu se u -- zdaj -- te. 
@@ -25248,7 +33849,7 @@ lyricThreeZero = \lyricmode {
   Ti što me u tje -- sko -- bi i -- zba -- vi U -- sli -- ši mol -- bu mo -- ju Kad za sli -- ši mol -- bu mo -- ju 
 }
 
-lyricFourZero = \lyricmode {
+lyricTenorZero = \lyricmode {
   Kad za -- zo -- vem Te U -- sli -- ši me Bo -- že, 
   prav -- do mo -- ja, 
   Ti što me u tje -- sko -- bi i -- zba -- vi U -- sli -- ši mol -- bu mo -- ju Kad za sli -- ši mol -- bu mo -- ju sli -- ši mol -- bu mo -- ju Tu tu tu tu tu tu tu tu Ja -- hve U -- sli -- ša -- va mo -- li -- tve kad ga zo -- vem On ču -- je me Kad za Tu tu tu tu tu tu tu tu ka -- žu O -- staj -- te pra -- ve -- dni i u Ja -- hvu se u -- zdaj -- te. 
@@ -25257,10 +33858,32 @@ lyricFourZero = \lyricmode {
   Ti što me u tje -- sko -- bi i -- zba -- vi U -- sli -- ši mol -- bu mo -- ju Kad za sli -- ši mol -- bu mo -- ju 
 }
 
-lyricFiveZero = \lyricmode {
+lyricBassZero = \lyricmode {
   Kad za -- zo -- vem Te U -- sli -- ši me Bo -- že, 
   prav -- do mo -- ja, 
   Ti što me u tje -- sko -- bi i -- zba -- vi U -- sli -- ši mol -- bu mo -- ju Kad za sli -- ši mol -- bu mo -- ju sli -- ši mol -- bu mo -- ju Tu tu tu tu tu tu tu tu Ja -- hve U -- sli -- ša -- va mo -- li -- tve kad ga zo -- vem On ču -- je me Kad za Tu tu tu tu tu tu tu tu ka -- žu O -- staj -- te pra -- ve -- dni i u Ja -- hvu se u -- zdaj -- te. 
+  Kad za -- zo -- vem Te U -- sli -- ši me Bo -- že, 
+  prav -- do mo -- ja, 
+  Ti što me u tje -- sko -- bi i -- zba -- vi U -- sli -- ši mol -- bu mo -- ju Kad za sli -- ši mol -- bu mo -- ju 
+}
+
+lyricSoloZero = \lyricmode {
+  Si -- no -- vi ljud -- ski, 
+  do -- kle će vam sr -- ca tvr -- da o -- sta -- ti? 
+  Do -- kle će -- te pra -- zne rije -- či vo -- lje -- ti, 
+  la -- ži slije -- di -- ti? 
+  Znaj -- te da Ja -- hve ču -- de -- sno vo -- di svo -- je sve -- te U -- sli -- ša -- va mo -- li -- tve, 
+  kad Ga zo -- vem On ču -- je me Smi -- re -- na sr -- ca pro -- mi -- sli -- te sa -- da i ne grije -- ši -- te. 
+  Dr -- šči -- te na tren na svo -- me le -- ža -- ju i za -- nje -- mi -- te. 
+  Jer mno -- gi ka -- žu: 
+  Tko će po -- ka -- za -- ti nam sre -- ću? 
+  O -- staj -- te pra -- ve -- dni i u Ja -- hvu se u -- zdaj -- te. 
+}
+
+lyricBackZero = \lyricmode {
+  Kad za -- zo -- vem Te U -- sli -- ši me Bo -- že, 
+  prav -- do mo -- ja, 
+  Ti što me u tje -- sko -- bi i -- zba -- vi U -- sli -- ši mol -- bu mo -- ju Kad za sli -- ši mol -- bu mo -- ju sli -- ši mol -- bu mo -- ju Tu tu tu tu Tu tu tu tu Tu tu tu tu Tu tu tu tu Tu tu tu tu Tu tu tu tu Tu tu tu tu Tu tu tu tu Ja -- hve U -- sli -- ša -- va mo -- li -- tve kad ga zo -- vem On ču -- je me Kad za Tu tu tu tu Tu tu tu tu Tu tu tu tu Tu tu tu tu Tu tu tu tu Tu tu tu tu Tu tu tu tu Tu tu tu tu ka -- žu O -- staj -- te pra -- ve -- dni i u Ja -- hvu se u -- zdaj -- te. 
   Kad za -- zo -- vem Te U -- sli -- ši me Bo -- že, 
   prav -- do mo -- ja, 
   Ti što me u tje -- sko -- bi i -- zba -- vi U -- sli -- ši mol -- bu mo -- ju Kad za sli -- ši mol -- bu mo -- ju 
@@ -25269,32 +33892,47 @@ lyricFiveZero = \lyricmode {
 \score {
     <<
     %lead start
+    % <<
+    % \new Staff {
+    %     \new Voice = "lead" { \staffLead }
+    % }
+    % \new Lyrics \lyricsto "lead" { \lyricLeadZero }
+    % >>
+    %lead end
+    %solo start
     <<
     \new Staff {
-        \new Voice = "lead" { \staffOne }
+        \new Voice = "solo" { \staffSolo }
     }
-    \new Lyrics \lyricsto "lead" { \lyricOneZero }
+    \new Lyrics \lyricsto "solo" { \lyricSoloZero }
     >>
-    %lead end
+    %solo end
     %choir start
     \new ChoirStaff {
         <<
         \new Staff \with { \consists "Merge_rests_engraver" } {
             <<
-            \new Voice = "sopran" { \voiceOne \staffTwo }
-            \new Voice = "alt" { \voiceTwo \staffThree }
-            \new NullVoice = "lead" { \staffOne }
-            \new Lyrics \lyricsto "lead" { \lyricOneZero }
+            \new Voice = "sopran" { \voiceOne \staffSopran }
+            \new Voice = "alt" { \voiceTwo \staffAlt }
+            \new NullVoice = "lead" { \staffLead }
+            \new NullVoice = "back" { \staffBack }
+            \new Lyrics \lyricsto "back" { \lyricBackZero }
             >>
         }
         \new Staff \with { \consists "Merge_rests_engraver" } {
             <<
-            \new Voice = "tenor" { \voiceOne \staffFour }
-            \new Voice = "bass" { \voiceTwo \staffFive }
+            \new Voice = "tenor" { \voiceOne \staffTenor }
+            \new Voice = "bass" { \voiceTwo \staffBass }
             >>
         }
         >>
     }
     %choir end
     >>
+    \layout {
+        \context {
+            \Staff \RemoveEmptyStaves
+            \override VerticalAxisGroup.remove-first = ##t
+        }
+    }
 }
