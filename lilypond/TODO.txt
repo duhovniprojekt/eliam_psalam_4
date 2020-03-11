@@ -1,0 +1,4 @@
+- add partial to staffOne
+\partial 4
+- coda text?
+- add \bar "|." on end of staffOne
